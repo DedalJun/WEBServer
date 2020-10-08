@@ -1,0 +1,147 @@
+.cbutton{
+    -webkit-appearance: none;
+    border: 0;
+    font-size: 14px;
+    border-radius: 0.4em;
+    background: #4676D7;
+    color: #fff;
+    padding: 0.5em 0.6em;
+    margin: 0.3em 0.5em;
+}
+
+#connect{
+    -webkit-appearance: none;
+    border: 0;
+    font-size: 14px;
+    border-radius: 0.4em;
+    background: forestgreen;
+    color: #fff;
+    padding: 0.5em 0.6em;
+    margin: 0.3em 0.5em;
+}
+
+#terminate{
+    -webkit-appearance: none;
+    border: 0;
+    font-size: 14px;
+    border-radius: 0.4em;
+    background: crimson;
+    color: #fff;
+    padding: 0.5em 0.6em;
+    margin: 0.3em 0.5em;
+}
+
+body{
+    background: #41658E;
+    padding: 1em;
+}
+
+p{
+    color: #fff;
+}
+
+#textzone{
+    height: 25em;
+    width: 25em;
+    resize: none;
+}
+
+.tmp{
+    width: 4em;
+}
+
+@media (min-width: 1200px) {
+    #commandline{
+        top: 28em;
+    }
+
+    #tempset{
+        left: 30em;
+        top: 1em;
+        width: 17em;
+    }
+
+    #moving{
+        left: 52em;
+        top: 1em;
+        width: 12em;
+    }
+
+    #fanset{
+        top: 1em;
+        left: 67em;
+        width: 12em;
+    }
+
+
+    .blocks{
+        position: absolute;
+    }
+}
+
+@media (min-width: 881px) and (max-width: 1200px)
+{
+    .blocks{
+        position: absolute;
+    }
+
+    #commandline{
+        top: 25em;
+    }
+
+    #tempset{
+        top: 15em;
+        left: 38em;
+        width: 17em;
+    }
+
+    #moving{
+        left: 25em;
+        top: 1em;
+        width: 12em;
+    }
+
+    #fanset{
+        top: 1em;
+        left: 38em;
+        width: 12em;
+    }
+}
+
+@media (min-width: 731px) and (max-width: 880px)
+{
+    .blocks{
+        position: absolute;
+    }
+
+    #commandline{
+        top: 25em;
+    }
+
+    #tempset{
+        top: 30em;
+        width: 17em;
+    }
+
+    #moving{
+        left: 25em;
+        top: 1em;
+        width: 12em;
+    }
+
+    #fanset{
+        top: 30em;
+        left: 25em;
+        width: 12em;
+    }
+}
+
+@media (max-width: 730px){
+    .blocks{
+        width: 30em;
+    }
+
+    #textzone{
+        width: 30em;
+    }
+}
